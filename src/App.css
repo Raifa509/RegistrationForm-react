@@ -6,8 +6,7 @@ body{
 #main{ 
 
 background: linear-gradient(135deg, #a18cd1, #fbc2eb);
-/* background: linear-gradient(135deg, #fbc2eb, #a6c1ee); */
-/* background: linear-gradient(135deg, #cfd9df, #e2ebf0); */
+
 }
 .box {
  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05));
@@ -19,4 +18,49 @@ background: linear-gradient(135deg, #a18cd1, #fbc2eb);
 }
 .radio-style{
   font-family: "Nunito", sans-serif;
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.141);  
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  backdrop-filter: blur(6px);
+  color: black;
+  padding: 10px 15px;
+  transition: all 0.3s ease;  
+}
+
+.glass-input::placeholder {
+  color: rgba(0, 0, 0, 0.773);
+}
+
+.glass-input:focus {
+  background: rgba(255, 255, 255, 0.25);  
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);      
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  outline: none;
+}
+
+.glass-input::-webkit-datetime-edit {
+  color: rgba(0, 0, 0, 0.773);
+}
+
+.glass-input::-webkit-datetime-edit-fields-wrapper {
+ color: rgba(0, 0, 0, 0.773);
+}
+.glass-input::-webkit-datetime-edit-text {
+ color: rgba(0, 0, 0, 0.773);
+}
+.glass-input::-webkit-datetime-edit-year-field,
+.glass-input::-webkit-datetime-edit-month-field,
+.glass-input::-webkit-datetime-edit-day-field {
+ color: rgba(0, 0, 0, 0.773);
+}
+.glass-input option {
+  background: rgba(255, 255, 255, 0.8); 
+  color: black;                    
+}
+#mydropdown{
+  color: rgba(0, 0, 0, 0.888);
 }
