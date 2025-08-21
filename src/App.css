@@ -1,0 +1,22 @@
+body{
+    font-family: "Nunito", sans-serif;
+    color: black;
+}
+
+#main{ 
+
+background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+/* background: linear-gradient(135deg, #fbc2eb, #a6c1ee); */
+/* background: linear-gradient(135deg, #cfd9df, #e2ebf0); */
+}
+.box {
+ background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 2rem;
+  width: 60%;
+}
+.radio-style{
+  font-family: "Nunito", sans-serif;
+}
