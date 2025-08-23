@@ -16,6 +16,13 @@ background: linear-gradient(135deg, #a18cd1, #fbc2eb);
   padding: 2rem;
   width: 60%;
 }
+@media (max-width:768px) {
+  .box{
+    width: 80%;
+    margin: 2rem;
+    padding: 1rem;
+  }
+}
 .radio-style{
   font-family: "Nunito", sans-serif;
 }

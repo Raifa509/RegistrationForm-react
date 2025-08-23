@@ -64,19 +64,19 @@ function Form() {
             <section className='d-flex justify-content-center align-items-center min-vh-100' id='main'>
                 <div className='box shadow'>
                     <div className="row">
-                        <div className="col-md-5 py-5">
-                            <div className='mt-2  d-flex flex-column justify-content-center align-items-center h-100'>
+                        <div className="col-md-5 py-md-5 py-3">
+                            <div className='mt-md-2  d-flex flex-column justify-content-center align-items-center h-100'>
                                 <h2 className='text-center fx-bold'>Welcome <RiGraduationCapFill /></h2>
                                 <h5 className='text-center mt-3 text-justify'>
                                     Begin your journey toward academic<br />excellence with us.
                                 </h5>
                                 <div className='d-flex justify-content-center align-item-center'>
-                                    <img src="/img.png" alt="" width={360} /></div>
+                                    <img src="/img.png" alt="" className='img-fluid' /></div>
                             </div>
                         </div>
 
-                        <div className="col-md-7 px-5 py-1">
-                            <div className='ms-4'>
+                        <div className="col-md-7 px-md-5 px-2 py-md-1">
+                            <div className='ms-md-4'>
                                 <h5 className='text-center pb-3 '>Fill the Form</h5>
 
                                 {/* form */}
