@@ -64,3 +64,15 @@ background: linear-gradient(135deg, #a18cd1, #fbc2eb);
 #mydropdown{
   color: rgba(0, 0, 0, 0.888);
 }
+
+input.input-error,
+select.input-error{
+  border-color: #ec03039f;
+}
+.error-text{
+  font-size: 14px;
+  color:  #ec0303d2;
+}
+.error-text::before{
+  content: '* ';
+}
